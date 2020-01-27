@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @NoArgsConstructor
 @Data
-public class Vote {
+public class Vote extends Auditable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
